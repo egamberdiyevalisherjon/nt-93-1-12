@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  background-color: #f00;
+  border-radius: 50%;
+  transform: translate(0);
+}
+
+.square {
+  width: 400px;
+  height: 400px;
+  background-color: #0f0;
+  transform: rotate(0);
+}
+
+.ellipse {
+  width: 400px;
+  height: 200px;
+  background-color: #00f;
+  border-radius: 50%;
+  transform: scale(1);
+}
+
+.rect {
+  width: 400px;
+  height: 200px;
+  background-color: #ff0;
+  transform: skewX(-.1turn);
+}
