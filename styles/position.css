@@ -65,7 +65,7 @@ section#cards {
   overflow: hidden;
   text-align: center;
   position: relative;
-  z-index: 256;
+  z-index: 257;
 }
 
 .card:nth-child(2) {
